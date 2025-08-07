@@ -181,7 +181,7 @@ const Menu = () => {
             onClick={() => setSelected(cat)}
             className={`px-4 py-2 rounded-md font-medium text-sm transition duration-300 ease-in-out ${
               selected === cat
-                ? "bg-[#46A547] text-white shadow-md"
+                ? "bg-green-700 text-white shadow-md"
                 : "bg-[#F26C22] text-white hover:bg-[#D42C27]"
             }`}
           >
