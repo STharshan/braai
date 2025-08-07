@@ -169,7 +169,7 @@ const Menu = () => {
   return (
     <section id="menu" className="w-full bg-black text-[#E5D9C2] py-16 px-6">
       {/* Title */}
-      <div className="text-center mb-8">
+      <div className="text-center mb-8 mt-18">
         <h2 className="text-4xl md:text-6xl font-bold mb-5 text-white">Main Menu</h2>
       </div>
 
