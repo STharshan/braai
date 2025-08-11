@@ -14,7 +14,7 @@ const Story = () => {
     }, []);
 
     return (
-        <section id="story" className=" py-16 px-6">
+        <section id="story" className=" py-16 px-6 scroll-m-25">
             <div className="max-w-7xl mx-auto flex flex-col items-center justify-center text-center">
                 <div className="relative mb-12">
                     {/* Dot Icon with animation */}
