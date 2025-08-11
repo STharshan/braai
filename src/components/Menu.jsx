@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 const categories = [
-  "All",
   "Burgers",
   "Kebab Rolls",
   "Biryani Dishes",
@@ -160,7 +159,7 @@ const allItems = [
 
 
 const Menu = () => {
-  const [selected, setSelected] = useState("All");
+  const [selected, setSelected] = useState("Burgers");
 
   const filtered = selected === "All"
     ? allItems
@@ -174,7 +173,7 @@ const Menu = () => {
       </div>
 
       {/* Categories */}
-      <div className="flex flex-wrap justify-center gap-3 mb-10">
+      <div className="flex flex-wrap justify-center gap-3 mb-10 max-w-6xl mx-auto">
         {categories.map((cat) => (
           <button
             key={cat}
