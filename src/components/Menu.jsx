@@ -197,9 +197,9 @@ const Menu = () => {
             className="bg-[#1A1A1A] rounded-lg border border-[#333] overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-105 hover:border-[#F26C22] hover:shadow-2xl"
           >
             <img
-              src={item.image}
+              src="/logo.png" // Placeholder image, replace with item.image if available
               alt={item.title}
-              className="w-full h-48 object-cover"
+              className="ml-22 w-[50%] h-48 object-cover"
             />
             <div className="p-4">
               <div className="mb-2">
@@ -215,22 +215,9 @@ const Menu = () => {
                   </span>
                 )}
               </div>
-              {item.desc && (
-                <p className="text-[#B0B0B0] text-sm mb-4">{item.desc}</p>
-              )}
-              <button className="w-full bg-[#F26C22] hover:bg-[#D42C27] text-white py-2 rounded-md flex items-center justify-center gap-2 font-semibold transition duration-300 ease-in-out">
-                <span className="text-xl">+</span> Add to Order
-              </button>
             </div>
           </div>
         ))}
-      </div>
-
-      {/* View Full Menu Button */}
-      <div className="mt-12 flex justify-center">
-        <button className="bg-[#F26C22] hover:bg-[#D42C27] text-white px-6 py-2 rounded-md font-semibold text-sm md:text-base transform hover:scale-105 transition duration-300 ease-in-out">
-          View Full Menu
-        </button>
       </div>
     </section>
   );

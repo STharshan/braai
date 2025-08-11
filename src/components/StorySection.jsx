@@ -7,7 +7,7 @@ export function StorySection() {
     useEffect(() => {
         const interval = setInterval(() => {
             setAnimate((prev) => !prev);
-        }, 1000); // Change every 2 seconds for smooth transition
+        }, 2000); // Change every 2 seconds for smooth transition
 
         return () => clearInterval(interval); // Cleanup on unmount
     }, []);

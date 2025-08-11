@@ -12,7 +12,7 @@ const journeyData = [
     icon: <SlLocationPin className="text-xl"/>, // Use the corresponding icon
   },
   {
-    year: "4 Years",
+    year: "community",
     title: "Keeping the Flame Alive",
     description:
       "Starting from home, authentic BBQ became a favorite among friends, family, and a growing community of loyal customers.",
