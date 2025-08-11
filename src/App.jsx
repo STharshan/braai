@@ -9,6 +9,7 @@ import Journey from "./components/Journey"
 import Menu from "./components/Menu"
 import Navbar from "./components/Navbar"
 import Story from "./components/Story"
+import { StorySection } from "./components/StorySection"
 import Testimonials from "./components/Testimonials"
 
 
@@ -22,6 +23,7 @@ function App() {
       <Journey />
       <Heritage />
       <Expertise />
+      <StorySection />
       <Menu />
       <InfoSection />
       <Testimonials />

@@ -1,6 +1,6 @@
 import React from "react";
 import { Users, Utensils } from "lucide-react";
-import { FaHeart } from "react-icons/fa"; // Import the icons
+import { FaGlobe, FaHeart } from "react-icons/fa"; // Import the icons
 import { SlLocationPin } from "react-icons/sl";
 
 const journeyData = [
@@ -16,7 +16,7 @@ const journeyData = [
     title: "Keeping the Flame Alive",
     description:
       "Starting from home, authentic BBQ became a favorite among friends, family, and a growing community of loyal customers.",
-    icon: <FaHeart />, // Use the corresponding icon
+    icon: <FaHeart className="text-xl"/>, // Use the corresponding icon
   },
   {
     year: "8 Years",
@@ -25,13 +25,13 @@ const journeyData = [
       "Hard work paid off—bought and ran that very restaurant for eight incredible years, learning every aspect of the business.",
     icon: <Utensils />, // Use the corresponding icon
   },
-//   {
-//     year: "Journey",
-//     title: "Return to Roots",
-//     description:
-//       "A short return to Africa rekindled the connection to heritage and traditional cooking methods that would later define our unique approach.",
-//     icon: <FaGlobe />, // Use the corresponding icon
-//   },
+  {
+    year: "Journey",
+    title: "Return to Roots",
+    description:
+      "A short return to Africa rekindled the connection to heritage and traditional cooking methods that would later define our unique approach.",
+    icon: <FaGlobe className="text-xl" />, // Use the corresponding icon
+  },
 //   {
 //     year: "Search",
 //     title: "Finding Home",
@@ -39,13 +39,13 @@ const journeyData = [
 //       "Four long years of searching for the perfect location. Patience and persistence finally led to our dream space.",
 //     icon: <FaSearch />, // Use the corresponding icon
 //   },
-  {
-    year: "Today",
-    title: "Six Years Strong",
-    description:
-      "Proud to call this place home, serving our community with authentic flavors and bringing people together through food.",
-    icon: <Users />, // Use the corresponding icon
-  },
+  // {
+  //   year: "Today",
+  //   title: "Six Years Strong",
+  //   description:
+  //     "Proud to call this place home, serving our community with authentic flavors and bringing people together through food.",
+  //   icon: <Users />, // Use the corresponding icon
+  // },
 ];
 
 const Journey = () => {
